@@ -34,3 +34,5 @@ def authenticated(user_login:str, user_password:str):
 def identity(payload:dict):
     _id = payload["identity"]
     return user_ids.get(_id, None)
+
+# coment!
