@@ -6,7 +6,7 @@ This module should done:
 from flask import Flask
 
 app = Flask(__name__)
-
+#база
 store_info = [
     {
         "name": 'First Store',
@@ -19,7 +19,7 @@ store_info = [
     }
 ]
 
-
+#обработчик
 @app.route("/homepage", methods=['GET'])
 def homepage():
     return {"Message": "Hello web! This is homepage!"}
