@@ -18,7 +18,7 @@ db = [
         ]
     }
 ]
-
+#Обработчик
 @app.route('/stores', methods=['GET'])
 def get_stores():
     """
