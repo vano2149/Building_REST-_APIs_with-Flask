@@ -1,5 +1,6 @@
 """
 api.py file!
+модуль нашего api!
 """
 
 from flask import Flask, jsonify, request
