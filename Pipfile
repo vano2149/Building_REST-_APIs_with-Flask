@@ -14,6 +14,8 @@ flask-restful = "*"
 flask-jwt = "*"
 werkzeug = "*"
 flask-migrate = "*"
+flask-login = "*"
+flask-mail = "*"
 
 [dev-packages]
 
